@@ -36,6 +36,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-testing-library": "^3.9.2",
     "eslint-webpack-plugin": "^2.5.2",
+    "react-tsparticles":"^1.39.0",
     "file-loader": "6.1.1",
     "firebase": "^9.6.3",
     "fs-extra": "^9.0.1",
