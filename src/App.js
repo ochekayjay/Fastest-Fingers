@@ -1,10 +1,9 @@
 
-import React,{useState, useEffect} from 'react';
+const {React,useState, useEffect} = require('react');
 import './App.css';
 import { StateHolder} from './Statecontext';
 import Display from './Display';
-import Appsecond from './Appsecond';
-import Particlebackground from './Particlebackground';
+import Appsecond from './Appsecond'
 import Load from './littleparts/gif'
 import Opener from './littleparts/Openpage';
 import { collection, getDocs,query,where,orderBy } from "firebase/firestore";
@@ -232,7 +231,7 @@ const BestScores = async()=>{
           newsnap={newsnap} highscores={highscores} leaderusers={leaderusers} personalsnap={personalsnap} BestScores={BestScores}
           personalArr={personalArr} BestScoreArray={BestScoreArray} pArraylength={pArraylength}/>
           
-          {!<Particlebackground />}
+        
           
         </div>
         
